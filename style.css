@@ -1,0 +1,93 @@
+body{
+    height: 100%;
+    padding: 0;
+    background: #202124;
+}
+body, input, button{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+.header{
+    margin-left: 80%;
+    margin-top: 25px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+.main{
+    margin-top: 7%;
+}
+.input-btn{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.search-bar{
+    margin-top: 15px;
+    border-radius:50px;
+    padding: 1px 20px;
+    font-size: 25px;
+    background-color: #202124;
+    color: white;
+} 
+.logo{
+    margin-top: -25px;
+    width: 70px;
+    margin-left: 15px;
+}
+.advanced-search{
+    margin-left: 5%;
+    color: #f28b82;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.advanced{
+    border-color: #3c4043;
+    border-bottom-color: rgb(235, 235, 235);    
+    border-bottom: 1px solid #ebebeb;
+}
+.search-fields{
+    margin-top: 5%;
+}
+.find-page-txt{
+    display: table-cell;
+}
+.simple-input{
+    border-radius: 2px;
+    border: 1px solid gray ;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 18px;
+    width: 600px;
+    height: 25px;
+    background-color: #202124;
+    color: white;
+}
+.label{
+    font-size: 24px;
+    color: #f28b82;
+    border-bottom: 1px solid #3c4043;
+    padding-top: 25px;
+    padding-left: 55px;
+    padding-bottom: 25px;
+}

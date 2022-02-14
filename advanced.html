@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="main.html">Google Search</a>
+        <a href="image.html">Image Search</a>
+    </div>
+    <img src="img/logo.png" class="logo" alt="Google's logo">
+    <div class="label">Advanced Search</div>
+    <h3 style="font-weight:normal; font-size: 18px;">Find pages with...</h3>
+    <form action="https://google.com/search">
+        <label for="allWords" style="margin-right: 63px;" class="float">all these words:</label>
+        <input class="simple-input" id="allWords" name="as_q" type="text">
+        <label class="float" for="allWords">Type the important words: tri-colour rat terrier</label>
+        <br>
+        <label for="exact_words" class="float">this exact word or phrase:</label>
+        <input class="simple-input" id="exact_words" name="as_epq" type="text">
+        <label for="exact_words" class="float">Put exact words in quotes: "rat terrier"</label>
+        <br>
+        <label for="any_word" style="margin-right: 38px;" class=float>any of these words:</label>
+        <input class="simple-input" value autofocus="autofocus" id="any_word" name="as_oq" type="text">
+        <label for="any_word" class="float">Type OR between all the words you want: miniature OR standard</label>
+        <br>
+        <label for="non_words" style="margin-right: 29px;" class="float">none of these words:</label>
+        <input class="simple-input" value autofocus="autofocus" id="non_words" name="as_eq" type="text">
+        <label for="non_words" class="float">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+        <br>
+        <input type="submit" style="margin-top: 25px;" value="Advanced search" class="input-btn">
+    </form>
+</body>
+</html>
