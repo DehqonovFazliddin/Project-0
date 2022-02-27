@@ -91,3 +91,14 @@ body, input, button{
     padding-left: 55px;
     padding-bottom: 25px;
 }
+.a-btn{
+    text-decoration:none;
+    color: #e8eaed;
+    background-color: #303134;
+    border: 1px solid #303134;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 9px 16px;
+    border-radius: 4px;
+}
